@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="data.css">
+        <h1> Nguyễn Mạnh Thắng </h1>
+    </head>
+    <body>
+        <div id="Contact">
+            <div class="social-links">
+                <a href="https://www.facebook.com/ara.gaming.9022" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nguyenmanhthang2k5@gmail.com" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+                </a>
+                <a href="https://github.com/ThangG05" target="_blank">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub">
+                </a>
+            </div>
+            <div id="anh">
+                <img src="img/avt1.jpg">
+            </div>
+            <div id="infor">
+                <h3>Thông tin cá nhân</h3>
+                <label>Họ và tên: Nguyễn Mạnh Thắng</label><br>
+                <label>Giới tính: Nam</label><br>
+                <label>Số điện thoai: 0396193041</label><br>
+                <label>Năm sinh: 2005</label><br>
+                <lable>Quê quán: Đông Bình , Mỹ Đức , Hà Nội</lable>
+            </div>
+            <div id="Learning">
+               <h3>Học vấn</h3>
+               <label>Trường: Banking Academy Of Viet Nam</label>
+               <img src="https://media-cdn-v2.laodong.vn/storage/newsportal/2025/8/6/1553190/Anh-Chup-Man-Hinh-20.jpeg">
+               <br>
+               <label>Sinh viên năm: 3</label><br>
+               <label>Chuyên ngành: Information Technology</label><br>
+            </div>
+            <div id="EXP">
+                <h3>Kinh nghiệm</h3>
+                <label>Đã từng tham giá thi Olympic tin học sinh viên Việt Nam 2024</label>
+                <img src="img/cm.jpg">
+            </div>
+            <div id="Tool">
+                <h3>Tool và kiến thức</h3>
+                <h4>Tool</h4>
+               <ul>
+                    <li>
+                        Visual Studio Code
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/2048px-Visual_Studio_Code_1.35_icon.svg.png">
+                    </li>
+                    <li>
+                        Visual Studio 2022
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Visual_Studio_Icon_2019.svg/2060px-Visual_Studio_Icon_2019.svg.png">
+                    </li>
+                    <li>
+                        Dev C++
+                        <img src="https://www.freeiconspng.com/uploads/dev-c--logo-icon-32.png">
+                    </li>
+                    <li>
+                        SQL Server
+                        <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg">
+                    </li>
+                    <li>
+                        Thonny
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Thonny_logo.png">
+                    </li>
+                    <li>
+                        Canva
+                        <img src="https://www.d-id.com/wp-content/uploads/2023/04/1656733637logo-canva-png.png">
+                    </li>
+                    <li>
+                        Microsoft Office 365
+                        <img src="https://images.seeklogo.com/logo-png/50/2/microsoft-365-copilot-logo-png_seeklogo-501781.png">
+                    </li>
+               </ul>
+                <h4>Skill</h4>
+                <ul>
+                    <li>Có thể làm app desktop bằng ngôn ngữ C#</li>
+                    <li>Hiểu và biết sử dựng một vài thuật toán trong DSA</li>
+                    <li>Có thể sử dụng kiến thức và sử dụng AI để làm web</li>
+                    <li>Kiến thức tin học văn phòng khá ổn</li>
+                    <li>Có thể design nhẹ</li>
+                    <li>Có thể edit video cơ bản nếu cần</li>
+                </ul>
+            </div>
+            <div id="Habbit">
+                <h3>Sở thích</h3>
+                <h4>Âm nhạc</h4>
+                <ul>
+                    <li>Hai Triệu Năm (Den)
+                        <audio src="Music/2trieunam.mp3" controls loop></audio>
+                    </li>
+                    <li>Đi theo bóng mặt trời (Den)
+                        <audio src="Music/ditheobongmattroi.mp3" controls loop></audio>
+                    </li>
+                    <li>Mang tiền về cho mẹ (Den)
+                        <audio src="Music/mangtienve.mp3" controls loop ></audio>
+                    </li>
+                    <li>Lối nhỏ (Den)
+                        <audio src="Music/loinho.mp3" controls loop ></audio>
+                    </li>
+                    <li>BigCity Boy (Binz)
+                        <audio src="Music/bigboy.mp3" controls loop ></audio>
+                    </li>
+                    <li>OK (Binz)
+                        <audio src="Music/Ok.mp3" controls loop ></audio>
+                    </li>
+                </ul>
+                <h4>Bóng đá</h4>
+                <label>Câu lạc bộ yêu thích : Real Madrid</label><br>
+                <label>Ghi bàn với tốc độ ngang Gareth Bale</label>
+                <iframe width="560" height="315" 
+                src="Video/thangG.mp4" 
+                title="year:2020r" 
+                frameborder="10" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </body>
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('#Tool li img').forEach(img => {
+        img.addEventListener('mouseover', () => {
+          img.style.transform = 'scale(1.2)';
+        });
+        img.addEventListener('mouseout', () => {
+          img.style.transform = 'scale(1)';
+        });
+      });
+    });
+  </script>
+</html>
